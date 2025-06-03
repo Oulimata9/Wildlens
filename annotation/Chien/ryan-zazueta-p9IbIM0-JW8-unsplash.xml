@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chien</folder>
+	<filename>ryan-zazueta-p9IbIM0-JW8-unsplash.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\ryan-zazueta-p9IbIM0-JW8-unsplash.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6000</width>
+		<height>4000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2276</xmin>
+			<ymin>1370</ymin>
+			<xmax>3593</xmax>
+			<ymax>2703</ymax>
+		</bndbox>
+	</object>
+</annotation>

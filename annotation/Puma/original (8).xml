@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Puma</folder>
+	<filename>original (8).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Puma\original (8).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>2048</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>puma</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>641</xmin>
+			<ymin>262</ymin>
+			<xmax>1274</xmax>
+			<ymax>1012</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>puma</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>297</xmin>
+			<ymin>1387</ymin>
+			<xmax>1057</xmax>
+			<ymax>1962</ymax>
+		</bndbox>
+	</object>
+</annotation>

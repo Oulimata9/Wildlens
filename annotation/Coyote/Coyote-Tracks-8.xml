@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Coyote</folder>
+	<filename>Coyote-Tracks-8.jpg</filename>
+	<path>C:\projets\mspr-ia\projet MSPR\Mammifères\Coyote\Coyote-Tracks-8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>879</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>coyote</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>269</xmin>
+			<ymin>538</ymin>
+			<xmax>463</xmax>
+			<ymax>799</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>coyote</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>385</xmin>
+			<ymin>720</ymin>
+			<xmax>621</xmax>
+			<ymax>986</ymax>
+		</bndbox>
+	</object>
+</annotation>

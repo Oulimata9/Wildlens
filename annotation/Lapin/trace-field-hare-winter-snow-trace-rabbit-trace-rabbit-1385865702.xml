@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lapin</folder>
+	<filename>trace-field-hare-winter-snow-trace-rabbit-trace-rabbit-1385865702.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lapin\trace-field-hare-winter-snow-trace-rabbit-trace-rabbit-1385865702.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>312</ymin>
+			<xmax>262</xmax>
+			<ymax>525</ymax>
+		</bndbox>
+	</object>
+</annotation>

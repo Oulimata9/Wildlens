@@ -1,0 +1,26 @@
+<annotation>
+	<folder>puma</folder>
+	<filename>OIP.uwtjNc-8AZKNxXbTcrYs2AAAAA.jpg</filename>
+	<path>C:\Users\marhr\Desktop\puma\OIP.uwtjNc-8AZKNxXbTcrYs2AAAAA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>146</width>
+		<height>234</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>puma</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>43</ymin>
+			<xmax>146</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>

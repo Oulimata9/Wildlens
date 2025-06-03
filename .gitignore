@@ -1,0 +1,8 @@
+# Fichiers à ignorer
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+venv_labelimg/

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Raton laveur</folder>
+	<filename>original (1).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Raton laveur\original (1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2048</width>
+		<height>1463</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>raccoon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>215</xmin>
+			<ymin>47</ymin>
+			<xmax>1965</xmax>
+			<ymax>1384</ymax>
+		</bndbox>
+	</object>
+</annotation>

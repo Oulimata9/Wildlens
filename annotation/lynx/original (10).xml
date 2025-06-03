@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lynx</folder>
+	<filename>original (10).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lynx\original (10).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>2048</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lynx</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>597</ymin>
+			<xmax>1093</xmax>
+			<ymax>1728</ymax>
+		</bndbox>
+	</object>
+</annotation>

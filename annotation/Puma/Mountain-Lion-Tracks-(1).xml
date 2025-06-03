@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Puma</folder>
+	<filename>Mountain-Lion-Tracks-(1).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Puma\Mountain-Lion-Tracks-(1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>682</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>puma</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>235</ymin>
+			<xmax>636</xmax>
+			<ymax>731</ymax>
+		</bndbox>
+	</object>
+</annotation>

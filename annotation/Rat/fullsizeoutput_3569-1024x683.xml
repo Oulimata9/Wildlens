@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rat</folder>
+	<filename>fullsizeoutput_3569-1024x683.jpeg</filename>
+	<path>C:\Users\marhr\Downloads\Rat\fullsizeoutput_3569-1024x683.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>683</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>378</xmin>
+			<ymin>206</ymin>
+			<xmax>777</xmax>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Loup</folder>
+	<filename>indian-wolf-canis-lupus-pallipes-or-canis-indicapaw-prints-in-dry-GY7J62.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\indian-wolf-canis-lupus-pallipes-or-canis-indicapaw-prints-in-dry-GY7J62.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>891</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wolf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>140</ymin>
+			<xmax>802</xmax>
+			<ymax>1105</ymax>
+		</bndbox>
+	</object>
+</annotation>

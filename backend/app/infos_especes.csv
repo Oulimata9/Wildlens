@@ -1,0 +1,14 @@
+classe,nom,nom_scientifique,description,famille,taille,habitat
+0,Castor,Castor canadensis,Rongeur bâtisseur de barrages.,Mammifères,0.74 à 1.2 m,"Rivières, lacs, zones boisées humides."
+1,Chat,Felis catus,Petit félin domestique.,Mammifères,0.3 à 0.5 m,"Partout où vivent les humains, principalement en intérieur."
+2,Chien,Canis lupus familiaris,Animal domestique courant.,Mammifères,0.4 à 1.1 m,"Présent dans les habitations humaines, zones urbaines et rurales."
+3,Coyote,Canis latrans,Canidé nord-américain.,Mammifères,0.75 à 1.05 m,"Prairies, forêts, déserts et zones urbaines."
+4,Ecureuil,Sciurus vulgaris,Petit rongeur arboricole.,Mammifères,0.2 à 0.3 m,"Forêts, parcs, zones boisées."
+5,Lapin,Oryctolagus cuniculus,Rongeur à longues oreilles.,Mammifères,0.3 à 0.5 m,"Prairies, forêts claires, jardins."
+6,Loup,Canis lupus,"Le loup gris commun, appelé également le loup européen ou le loup vulgaire, est un mammifère carnivore de la famille des canidés.",Mammifères,0.90 à 1.10 m (femelles); 1 à 1.30 m (mâles),"Forêts tempérées, massifs montagneux (Alpes), plaines, grandes steppes eurasiennes."
+7,Lynx,Lynx lynx,Félin discret aux oreilles touffues.,Mammifères,0.8 à 1.3 m,Forêts denses et montagnes.
+8,Ours,Ursus arctos,Grand mammifère omnivore.,Mammifères,1.4 à 2.8 m,"Forêts, montagnes et régions subarctiques."
+9,Puma,Puma concolor,Grand félin solitaire.,Mammifères,1 à 2.4 m,"Montagnes, forêts et zones désertiques."
+10,Rat,Rattus norvegicus,Rongeur très répandu.,Mammifères,0.2 à 0.4 m,"Villes, égouts, bâtiments, champs."
+11,Raton laveur,Procyon lotor,Mammifère nocturne curieux.,Mammifères,0.4 à 0.7 m,"Forêts, zones urbaines et zones humides."
+12,Renard,Vulpes vulpes,Mammifère rusé à fourrure rousse.,Mammifères,0.6 à 0.9 m,"Forêts, campagnes, zones périurbaines."

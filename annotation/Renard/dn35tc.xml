@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Renard</folder>
+	<filename>dn35tc.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\dn35tc.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>447</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fox</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>245</xmin>
+			<ymin>145</ymin>
+			<xmax>397</xmax>
+			<ymax>355</ymax>
+		</bndbox>
+	</object>
+</annotation>

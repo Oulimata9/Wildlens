@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Ecureuil</folder>
+	<filename>original_3.jpeg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\original_3.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1092</width>
+		<height>1286</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>squirrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>336</xmin>
+			<ymin>305</ymin>
+			<xmax>689</xmax>
+			<ymax>828</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rat</folder>
+	<filename>Kangaroo-Rat-Tracks-(2).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Rat\Kangaroo-Rat-Tracks-(2).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>684</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>116</ymin>
+			<xmax>752</xmax>
+			<ymax>556</ymax>
+		</bndbox>
+	</object>
+</annotation>

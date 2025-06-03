@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lapin</folder>
+	<filename>rabbit-tracks-fresh-snow-600w-1189054381.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lapin\rabbit-tracks-fresh-snow-600w-1189054381.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>30</ymin>
+			<xmax>260</xmax>
+			<ymax>141</ymax>
+		</bndbox>
+	</object>
+</annotation>

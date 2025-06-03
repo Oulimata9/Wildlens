@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lapin</folder>
+	<filename>rabbit-tracks-freshly-fallen-snow-bunny-who-hopped-across-area-top-down-view-141610011.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lapin\rabbit-tracks-freshly-fallen-snow-bunny-who-hopped-across-area-top-down-view-141610011.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>534</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>181</xmin>
+			<ymin>42</ymin>
+			<xmax>742</xmax>
+			<ymax>439</ymax>
+		</bndbox>
+	</object>
+</annotation>

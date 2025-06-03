@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Ours</folder>
+	<filename>p4kcmx.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\p4kcmx.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>59</xmin>
+			<ymin>81</ymin>
+			<xmax>421</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

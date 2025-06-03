@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lapin</folder>
+	<filename>rabbit-footprints-snow-trailing-woods-closeup-animal-visible-flakes-123535672.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lapin\rabbit-footprints-snow-trailing-woods-closeup-animal-visible-flakes-123535672.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>205</xmin>
+			<ymin>633</ymin>
+			<xmax>477</xmax>
+			<ymax>802</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Ours</folder>
+	<filename>dhdhn2.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\dhdhn2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>447</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>145</xmin>
+			<ymin>130</ymin>
+			<xmax>537</xmax>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+</annotation>

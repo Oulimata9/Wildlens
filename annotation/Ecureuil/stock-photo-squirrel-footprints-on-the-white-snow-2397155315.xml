@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Ecureuil</folder>
+	<filename>stock-photo-squirrel-footprints-on-the-white-snow-2397155315.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\stock-photo-squirrel-footprints-on-the-white-snow-2397155315.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1500</width>
+		<height>1198</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>squirrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>495</xmin>
+			<ymin>525</ymin>
+			<xmax>764</xmax>
+			<ymax>842</ymax>
+		</bndbox>
+	</object>
+</annotation>

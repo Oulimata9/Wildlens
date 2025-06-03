@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chat</folder>
+	<filename>13678778-en-haut-d-une-empreinte-de-patte-de-chat-sur-un-chemin-en-beton-photo.JPG4.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\13678778-en-haut-d-une-empreinte-de-patte-de-chat-sur-un-chemin-en-beton-photo.JPG4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>267</width>
+		<height>200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>76</ymin>
+			<xmax>162</xmax>
+			<ymax>140</ymax>
+		</bndbox>
+	</object>
+</annotation>

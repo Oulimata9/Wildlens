@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Loup</folder>
+	<filename>wolf-tracks-in-denali-national-park-in-alaska-M45PBT.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-in-denali-national-park-in-alaska-M45PBT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>857</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wolf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>762</ymin>
+			<xmax>521</xmax>
+			<ymax>1261</ymax>
+		</bndbox>
+	</object>
+</annotation>

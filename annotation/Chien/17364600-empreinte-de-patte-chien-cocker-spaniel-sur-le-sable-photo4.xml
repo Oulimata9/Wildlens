@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chien</folder>
+	<filename>17364600-empreinte-de-patte-chien-cocker-spaniel-sur-le-sable-photo4.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\17364600-empreinte-de-patte-chien-cocker-spaniel-sur-le-sable-photo4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>267</width>
+		<height>200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>63</xmin>
+			<ymin>6</ymin>
+			<xmax>211</xmax>
+			<ymax>170</ymax>
+		</bndbox>
+	</object>
+</annotation>

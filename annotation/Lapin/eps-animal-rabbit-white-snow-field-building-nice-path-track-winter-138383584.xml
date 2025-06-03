@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lapin</folder>
+	<filename>eps-animal-rabbit-white-snow-field-building-nice-path-track-winter-138383584.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lapin\eps-animal-rabbit-white-snow-field-building-nice-path-track-winter-138383584.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>264</xmin>
+			<ymin>638</ymin>
+			<xmax>492</xmax>
+			<ymax>828</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,13 @@
+beaver
+cat
+dog
+coyote
+squirrel
+rabbit
+wolf
+lynx
+bear
+puma
+rat
+raccoon
+fox

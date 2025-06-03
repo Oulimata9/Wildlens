@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chien</folder>
+	<filename>4b0d9173e1d0361db998918b54e48a25.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\4b0d9173e1d0361db998918b54e48a25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>179</xmin>
+			<ymin>436</ymin>
+			<xmax>527</xmax>
+			<ymax>796</ymax>
+		</bndbox>
+	</object>
+</annotation>

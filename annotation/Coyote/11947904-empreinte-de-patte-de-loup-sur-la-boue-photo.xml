@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Coyote</folder>
+	<filename>11947904-empreinte-de-patte-de-loup-sur-la-boue-photo.jpg</filename>
+	<path>C:\projets\mspr-ia\projet MSPR\Mammifères\Coyote\11947904-empreinte-de-patte-de-loup-sur-la-boue-photo.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1307</width>
+		<height>980</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>coyote</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>142</ymin>
+			<xmax>800</xmax>
+			<ymax>861</ymax>
+		</bndbox>
+	</object>
+</annotation>

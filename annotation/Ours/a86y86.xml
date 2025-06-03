@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Ours</folder>
+	<filename>a86y86.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\a86y86.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>345</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>18</xmin>
+			<ymin>121</ymin>
+			<xmax>340</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+</annotation>

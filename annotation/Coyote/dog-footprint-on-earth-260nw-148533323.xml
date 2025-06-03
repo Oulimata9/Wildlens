@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Coyote</folder>
+	<filename>dog-footprint-on-earth-260nw-148533323.webp</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Coyote\dog-footprint-on-earth-260nw-148533323.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>390</width>
+		<height>280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>coyote</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>225</xmin>
+			<ymin>66</ymin>
+			<xmax>341</xmax>
+			<ymax>202</ymax>
+		</bndbox>
+	</object>
+</annotation>

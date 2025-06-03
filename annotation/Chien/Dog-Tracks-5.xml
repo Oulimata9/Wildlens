@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>Chien</folder>
+	<filename>Dog-Tracks-5.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\Dog-Tracks-5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1007</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>131</xmin>
+			<ymin>38</ymin>
+			<xmax>857</xmax>
+			<ymax>962</ymax>
+		</bndbox>
+	</object>
+</annotation>
