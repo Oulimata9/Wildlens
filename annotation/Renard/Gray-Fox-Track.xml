@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>Gray-Fox-Track.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\Gray-Fox-Track.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\Gray-Fox-Track.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>682</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>220</xmin>
-			<ymin>85</ymin>
-			<xmax>511</xmax>
-			<ymax>451</ymax>
+			<xmin>50</xmin>
+			<ymin>25</ymin>
+			<xmax>113</xmax>
+			<ymax>142</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>520</xmin>
-			<ymin>278</ymin>
-			<xmax>820</xmax>
-			<ymax>530</ymax>
+			<xmin>118</xmin>
+			<ymin>99</ymin>
+			<xmax>173</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 </annotation>

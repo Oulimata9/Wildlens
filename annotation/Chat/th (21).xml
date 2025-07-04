@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Chat</folder>
+	<filename>th (21).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\th (21).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>240</width>
+		<height>180</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>83</ymin>
+			<xmax>137</xmax>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+</annotation>

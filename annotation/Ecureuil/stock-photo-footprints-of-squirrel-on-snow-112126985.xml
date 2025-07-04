@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ecureuil</folder>
 	<filename>stock-photo-footprints-of-squirrel-on-snow-112126985.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\stock-photo-footprints-of-squirrel-on-snow-112126985.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\stock-photo-footprints-of-squirrel-on-snow-112126985.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>990</width>
-		<height>1600</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>504</xmin>
-			<ymin>265</ymin>
-			<xmax>847</xmax>
-			<ymax>722</ymax>
+			<xmin>131</xmin>
+			<ymin>40</ymin>
+			<xmax>174</xmax>
+			<ymax>95</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Puma</folder>
 	<filename>Mountain-Lion-Tracks.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Puma\Mountain-Lion-Tracks.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Puma\Mountain-Lion-Tracks.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>682</width>
-		<height>1024</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>151</xmin>
-			<ymin>99</ymin>
-			<xmax>491</xmax>
-			<ymax>480</ymax>
+			<xmin>55</xmin>
+			<ymin>28</ymin>
+			<xmax>152</xmax>
+			<ymax>102</ymax>
 		</bndbox>
 	</object>
 </annotation>

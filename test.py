@@ -1,24 +1,15 @@
-import sqlite3
+from ultralytics import YOLO
 
-# Connexion à la base de données
-conn = sqlite3.connect("database/wildlens.db")
-cursor = conn.cursor()
+# Charger le modèle
+model = YOLO("backend/app/best.pt")  # attention : pas "app/best.pt" si on est déjà dans app/
 
-# Affichage du contenu de la table especes
-print(" Table 'especes' :")
-cursor.execute("SELECT * FROM especes")
-for row in cursor.fetchall():
-    print(row)
+# Image test : choisis une image qui marchait bien avant (genre un chat ou un ours)
+image_path = "C:\\cours_b3\\mspr-ia\\WildLens_MSPR\\test\\castor.jpg"  # copie cette image dans le même dossier
 
-print("\n Table 'empreintes' :")
-cursor.execute("SELECT id_empreinte, espece_id, date, photo_filename FROM empreintes LIMIT 10")
-rows = cursor.fetchall()
-for row in rows:
-    print(row)
+# Lancer la prédiction
+results = model.predict(image_path, save=True, conf=0.25)
 
-# Compter le nombre total d’empreintes
-cursor.execute("SELECT COUNT(*) FROM empreintes")
-total = cursor.fetchone()[0]
-print(f"\n Nombre total d’empreintes : {total}")
-
-conn.close()
+# Afficher le résultat
+for r in results:
+    print("Classes détectées :", r.names)
+    print("Boxes :", r.boxes)

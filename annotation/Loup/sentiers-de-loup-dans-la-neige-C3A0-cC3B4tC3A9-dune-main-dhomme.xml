@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>sentiers-de-loup-dans-la-neige-C3A0-cC3B4tC3A9-dune-main-dhomme.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\sentiers-de-loup-dans-la-neige-C3A0-cC3B4tC3A9-dune-main-dhomme.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\sentiers-de-loup-dans-la-neige-C3A0-cC3B4tC3A9-dune-main-dhomme.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>612</width>
-		<height>408</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>199</xmin>
-			<ymin>240</ymin>
-			<xmax>353</xmax>
-			<ymax>375</ymax>
+			<xmin>73</xmin>
+			<ymin>138</ymin>
+			<xmax>129</xmax>
+			<ymax>207</ymax>
 		</bndbox>
 	</object>
 </annotation>

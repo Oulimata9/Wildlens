@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>linda-robert-snLpcS1RdwA-unsplash.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\linda-robert-snLpcS1RdwA-unsplash.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\linda-robert-snLpcS1RdwA-unsplash.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>4000</width>
-		<height>6000</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,34 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2868</xmin>
-			<ymin>3517</ymin>
-			<xmax>3574</xmax>
-			<ymax>4152</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>dog</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2368</xmin>
-			<ymin>2934</ymin>
-			<xmax>2809</xmax>
-			<ymax>3323</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>dog</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>2874</xmin>
-			<ymin>4940</ymin>
-			<xmax>3791</xmax>
-			<ymax>5834</ymax>
+			<xmin>164</xmin>
+			<ymin>191</ymin>
+			<xmax>196</xmax>
+			<ymax>219</ymax>
 		</bndbox>
 	</object>
 </annotation>

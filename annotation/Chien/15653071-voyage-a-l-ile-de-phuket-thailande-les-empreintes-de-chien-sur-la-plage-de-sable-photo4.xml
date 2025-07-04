@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>15653071-voyage-a-l-ile-de-phuket-thailande-les-empreintes-de-chien-sur-la-plage-de-sable-photo4.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\15653071-voyage-a-l-ile-de-phuket-thailande-les-empreintes-de-chien-sur-la-plage-de-sable-photo4.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\15653071-voyage-a-l-ile-de-phuket-thailande-les-empreintes-de-chien-sur-la-plage-de-sable-photo4.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>200</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>82</xmin>
-			<ymin>48</ymin>
-			<xmax>210</xmax>
-			<ymax>156</ymax>
+			<xmin>64</xmin>
+			<ymin>53</ymin>
+			<xmax>159</xmax>
+			<ymax>178</ymax>
 		</bndbox>
 	</object>
 </annotation>

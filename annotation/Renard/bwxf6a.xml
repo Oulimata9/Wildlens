@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>bwxf6a.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\bwxf6a.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\bwxf6a.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>390</width>
-		<height>540</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>135</xmin>
-			<ymin>355</ymin>
-			<xmax>255</xmax>
-			<ymax>466</ymax>
+			<xmin>85</xmin>
+			<ymin>148</ymin>
+			<xmax>134</xmax>
+			<ymax>189</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>179</xmin>
-			<ymin>225</ymin>
-			<xmax>282</xmax>
-			<ymax>328</ymax>
+			<xmin>87</xmin>
+			<ymin>53</ymin>
+			<xmax>120</xmax>
+			<ymax>76</ymax>
 		</bndbox>
 	</object>
 </annotation>

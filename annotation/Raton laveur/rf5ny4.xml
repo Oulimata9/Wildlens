@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Raton laveur</folder>
 	<filename>rf5ny4.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Raton laveur\rf5ny4.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Raton laveur\rf5ny4.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>416</width>
-		<height>540</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,58 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>225</xmin>
-			<ymin>444</ymin>
-			<xmax>324</xmax>
-			<ymax>505</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>raccoon</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>34</xmin>
-			<ymin>343</ymin>
-			<xmax>108</xmax>
-			<ymax>405</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>raccoon</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>43</xmin>
-			<ymin>296</ymin>
-			<xmax>117</xmax>
-			<ymax>346</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>raccoon</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>132</xmin>
-			<ymin>213</ymin>
-			<xmax>192</xmax>
-			<ymax>279</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>raccoon</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>211</xmin>
-			<ymin>283</ymin>
-			<xmax>264</xmax>
-			<ymax>325</ymax>
+			<xmin>150</xmin>
+			<ymin>159</ymin>
+			<xmax>175</xmax>
+			<ymax>179</ymax>
 		</bndbox>
 	</object>
 </annotation>

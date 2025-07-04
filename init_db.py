@@ -24,7 +24,7 @@ cursor.execute("PRAGMA foreign_keys = ON;")
 #  Créer les nouvelles tables
 cursor.execute('''
 CREATE TABLE especes (
-    classe INTEGER PRIMARY KEY,
+    id_espece INTEGER PRIMARY KEY,
     nom TEXT NOT NULL,
     nom_scientifique TEXT,
     description TEXT,
@@ -37,11 +37,11 @@ CREATE TABLE especes (
 cursor.execute('''
 CREATE TABLE empreintes (
     id_empreinte INTEGER PRIMARY KEY AUTOINCREMENT,
-    espece_id INTEGER NOT NULL,
+    id_espece INTEGER NOT NULL,
     date TEXT NOT NULL,
     localisation TEXT,
     photo_filename TEXT,
-    FOREIGN KEY (espece_id) REFERENCES especes(classe)
+    FOREIGN KEY (id_espece) REFERENCES especes(id_espece)
 )
 ''')
 

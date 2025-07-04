@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>11820731-empreintes-de-chiens-se-bouchent-photo4.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\11820731-empreintes-de-chiens-se-bouchent-photo4.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\11820731-empreintes-de-chiens-se-bouchent-photo4.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>200</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>47</xmin>
-			<ymin>86</ymin>
-			<xmax>126</xmax>
-			<ymax>174</ymax>
+			<xmin>44</xmin>
+			<ymin>123</ymin>
+			<xmax>85</xmax>
+			<ymax>185</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>close-up-of-gray-wolf-grey-wolf-canis-lupus-footprint-in-the-mud-showing-HGGXK9.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\close-up-of-gray-wolf-grey-wolf-canis-lupus-footprint-in-the-mud-showing-HGGXK9.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\close-up-of-gray-wolf-grey-wolf-canis-lupus-footprint-in-the-mud-showing-HGGXK9.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>274</xmin>
-			<ymin>211</ymin>
-			<xmax>1160</xmax>
-			<ymax>835</ymax>
+			<xmin>49</xmin>
+			<ymin>56</ymin>
+			<xmax>190</xmax>
+			<ymax>180</ymax>
 		</bndbox>
 	</object>
 </annotation>

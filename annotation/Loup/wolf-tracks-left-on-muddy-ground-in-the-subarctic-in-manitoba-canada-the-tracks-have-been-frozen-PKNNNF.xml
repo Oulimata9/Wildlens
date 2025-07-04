@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-left-on-muddy-ground-in-the-subarctic-in-manitoba-canada-the-tracks-have-been-frozen-PKNNNF.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-left-on-muddy-ground-in-the-subarctic-in-manitoba-canada-the-tracks-have-been-frozen-PKNNNF.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-left-on-muddy-ground-in-the-subarctic-in-manitoba-canada-the-tracks-have-been-frozen-PKNNNF.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>176</xmin>
-			<ymin>344</ymin>
-			<xmax>702</xmax>
-			<ymax>780</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>wolf</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>174</xmin>
-			<ymin>168</ymin>
-			<xmax>1056</xmax>
-			<ymax>715</ymax>
+			<xmin>27</xmin>
+			<ymin>80</ymin>
+			<xmax>113</xmax>
+			<ymax>165</ymax>
 		</bndbox>
 	</object>
 </annotation>

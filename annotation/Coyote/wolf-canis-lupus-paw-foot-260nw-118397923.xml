@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Coyote</folder>
-	<filename>wolf-canis-lupus-paw-foot-260nw-118397923.webp</filename>
-	<path>C:\projets\mspr-ia\projet MSPR\Mammifères\Coyote\wolf-canis-lupus-paw-foot-260nw-118397923.webp</path>
+	<filename>wolf-canis-lupus-paw-foot-260nw-118397923.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Coyote\wolf-canis-lupus-paw-foot-260nw-118397923.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>390</width>
-		<height>280</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>47</xmin>
-			<ymin>135</ymin>
-			<xmax>135</xmax>
-			<ymax>243</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>coyote</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>126</xmin>
-			<ymin>31</ymin>
-			<xmax>189</xmax>
-			<ymax>119</ymax>
+			<xmin>25</xmin>
+			<ymin>107</ymin>
+			<xmax>80</xmax>
+			<ymax>199</ymax>
 		</bndbox>
 	</object>
 </annotation>

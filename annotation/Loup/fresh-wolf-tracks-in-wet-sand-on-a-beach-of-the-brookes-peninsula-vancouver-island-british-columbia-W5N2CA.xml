@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>fresh-wolf-tracks-in-wet-sand-on-a-beach-of-the-brookes-peninsula-vancouver-island-british-columbia-W5N2CA.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\fresh-wolf-tracks-in-wet-sand-on-a-beach-of-the-brookes-peninsula-vancouver-island-british-columbia-W5N2CA.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\fresh-wolf-tracks-in-wet-sand-on-a-beach-of-the-brookes-peninsula-vancouver-island-british-columbia-W5N2CA.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>951</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>227</xmin>
-			<ymin>376</ymin>
-			<xmax>512</xmax>
-			<ymax>655</ymax>
+			<xmin>44</xmin>
+			<ymin>89</ymin>
+			<xmax>88</xmax>
+			<ymax>137</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>674</xmin>
-			<ymin>296</ymin>
-			<xmax>951</xmax>
-			<ymax>491</ymax>
+			<xmin>122</xmin>
+			<ymin>69</ymin>
+			<xmax>159</xmax>
+			<ymax>112</ymax>
 		</bndbox>
 	</object>
 </annotation>

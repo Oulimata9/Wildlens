@@ -1,13 +1,13 @@
-<annotation verified="yes">
+<annotation>
 	<folder>Chien</folder>
 	<filename>Dog-Tracks-5.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\Dog-Tracks-5.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\Dog-Tracks-5.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>1007</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>131</xmin>
-			<ymin>38</ymin>
-			<xmax>857</xmax>
-			<ymax>962</ymax>
+			<xmin>34</xmin>
+			<ymin>8</ymin>
+			<xmax>182</xmax>
+			<ymax>205</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
 	<filename>Human-Bobcat-Coyote1-300x127.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\Human-Bobcat-Coyote1-300x127.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\Human-Bobcat-Coyote1-300x127.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>89</width>
-		<height>127</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4</xmin>
-			<ymin>10</ymin>
-			<xmax>81</xmax>
-			<ymax>110</ymax>
+			<xmin>10</xmin>
+			<ymin>44</ymin>
+			<xmax>189</xmax>
+			<ymax>179</ymax>
 		</bndbox>
 	</object>
 </annotation>

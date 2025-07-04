@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
-	<filename>original (3).jpeg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\original (3).jpeg</path>
+	<filename>original (3).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\original (3).jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2048</width>
-		<height>1536</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>769</xmin>
-			<ymin>409</ymin>
-			<xmax>1356</xmax>
-			<ymax>1276</ymax>
+			<xmin>92</xmin>
+			<ymin>65</ymin>
+			<xmax>139</xmax>
+			<ymax>128</ymax>
 		</bndbox>
 	</object>
 </annotation>

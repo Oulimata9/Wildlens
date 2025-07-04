@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ecureuil</folder>
 	<filename>stock-photo-footprints-of-a-squirrel-on-white-snow-winter-nature-background-589730984.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\stock-photo-footprints-of-a-squirrel-on-white-snow-winter-nature-background-589730984.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\stock-photo-footprints-of-a-squirrel-on-white-snow-winter-nature-background-589730984.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1500</width>
-		<height>1225</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>467</xmin>
-			<ymin>527</ymin>
-			<xmax>697</xmax>
-			<ymax>797</ymax>
+			<xmin>75</xmin>
+			<ymin>101</ymin>
+			<xmax>98</xmax>
+			<ymax>141</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>660</xmin>
-			<ymin>527</ymin>
-			<xmax>903</xmax>
-			<ymax>783</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>squirrel</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>340</xmin>
-			<ymin>265</ymin>
-			<xmax>600</xmax>
-			<ymax>537</ymax>
+			<xmin>56</xmin>
+			<ymin>54</ymin>
+			<xmax>82</xmax>
+			<ymax>94</ymax>
 		</bndbox>
 	</object>
 </annotation>

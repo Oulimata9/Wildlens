@@ -2,7 +2,7 @@ import os
 import xml.etree.ElementTree as ET
 
 # Dossier principal contenant tous les sous-dossiers d'annotations ===
-base_annotation_folder = 'C:\\cours_b3\\mspr-ia\\animalprint\\projet MSPR\\annotation'
+base_annotation_folder = 'C:/cours_b3/mspr-ia/WildLens_MSPR/annotation'
 
 classes_set = set()
 

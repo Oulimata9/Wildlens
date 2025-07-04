@@ -1,13 +1,13 @@
-<annotation>
+<annotation verified="yes">
 	<folder>Chien</folder>
 	<filename>sirisvisual-Dpy-cR8Sjn8-unsplash.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\sirisvisual-Dpy-cR8Sjn8-unsplash.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\sirisvisual-Dpy-cR8Sjn8-unsplash.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>3456</width>
-		<height>5184</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>850</xmin>
-			<ymin>1837</ymin>
-			<xmax>2495</xmax>
-			<ymax>3157</ymax>
+			<xmin>74</xmin>
+			<ymin>84</ymin>
+			<xmax>147</xmax>
+			<ymax>138</ymax>
 		</bndbox>
 	</object>
 </annotation>

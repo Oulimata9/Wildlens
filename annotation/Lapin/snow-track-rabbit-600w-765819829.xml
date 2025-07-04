@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Lapin</folder>
 	<filename>snow-track-rabbit-600w-765819829.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lapin\snow-track-rabbit-600w-765819829.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Lapin\snow-track-rabbit-600w-765819829.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>600</width>
-		<height>453</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>60</xmin>
-			<ymin>272</ymin>
-			<xmax>225</xmax>
-			<ymax>389</ymax>
+			<xmin>25</xmin>
+			<ymin>138</ymin>
+			<xmax>81</xmax>
+			<ymax>191</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>143</xmin>
-			<ymin>109</ymin>
-			<xmax>320</xmax>
-			<ymax>231</ymax>
+			<xmin>64</xmin>
+			<ymin>63</ymin>
+			<xmax>117</xmax>
+			<ymax>106</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>121</xmin>
+			<ymin>1</ymin>
+			<xmax>174</xmax>
+			<ymax>42</ymax>
 		</bndbox>
 	</object>
 </annotation>

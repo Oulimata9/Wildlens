@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-canning-river-APET0T.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-canning-river-APET0T.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-canning-river-APET0T.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>862</width>
-		<height>1390</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>345</xmin>
-			<ymin>633</ymin>
-			<xmax>727</xmax>
-			<ymax>1044</ymax>
+			<xmin>6</xmin>
+			<ymin>48</ymin>
+			<xmax>82</xmax>
+			<ymax>107</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>wolf</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
-			<ymin>311</ymin>
-			<xmax>346</xmax>
-			<ymax>658</ymax>
+			<xmin>100</xmin>
+			<ymin>105</ymin>
+			<xmax>179</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 </annotation>

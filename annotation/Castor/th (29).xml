@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Castor</folder>
+	<filename>th (29).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Castor\th (29).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>270</width>
+		<height>180</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beaver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>39</ymin>
+			<xmax>242</xmax>
+			<ymax>149</ymax>
+		</bndbox>
+	</object>
+</annotation>

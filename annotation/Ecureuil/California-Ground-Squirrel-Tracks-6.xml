@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ecureuil</folder>
 	<filename>California-Ground-Squirrel-Tracks-6.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\California-Ground-Squirrel-Tracks-6.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\California-Ground-Squirrel-Tracks-6.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>717</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>213</xmin>
-			<ymin>52</ymin>
-			<xmax>824</xmax>
-			<ymax>635</ymax>
+			<xmin>50</xmin>
+			<ymin>15</ymin>
+			<xmax>166</xmax>
+			<ymax>202</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ecureuil</folder>
 	<filename>L1080899-Grey-Squirrel-Footprints_655.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\L1080899-Grey-Squirrel-Footprints_655.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\L1080899-Grey-Squirrel-Footprints_655.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>655</width>
-		<height>437</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>255</xmin>
-			<ymin>77</ymin>
-			<xmax>423</xmax>
-			<ymax>325</ymax>
+			<xmin>95</xmin>
+			<ymin>82</ymin>
+			<xmax>146</xmax>
+			<ymax>166</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>squirrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>43</ymin>
+			<xmax>127</xmax>
+			<ymax>90</ymax>
 		</bndbox>
 	</object>
 </annotation>

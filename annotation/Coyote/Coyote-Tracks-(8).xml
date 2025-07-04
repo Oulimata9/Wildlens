@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Coyote</folder>
 	<filename>Coyote-Tracks-(8).jpg</filename>
-	<path>C:\projets\mspr-ia\projet MSPR\Mammifères\Coyote\Coyote-Tracks-(8).jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Coyote\Coyote-Tracks-(8).jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>682</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>274</xmin>
-			<ymin>376</ymin>
-			<xmax>474</xmax>
-			<ymax>616</ymax>
+			<xmin>54</xmin>
+			<ymin>122</ymin>
+			<xmax>109</xmax>
+			<ymax>208</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>515</xmin>
-			<ymin>72</ymin>
-			<xmax>680</xmax>
-			<ymax>269</ymax>
+			<xmin>111</xmin>
+			<ymin>14</ymin>
+			<xmax>149</xmax>
+			<ymax>87</ymax>
 		</bndbox>
 	</object>
 </annotation>

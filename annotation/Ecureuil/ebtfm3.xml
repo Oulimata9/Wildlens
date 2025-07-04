@@ -1,13 +1,13 @@
-<annotation>
+<annotation verified="yes">
 	<folder>Ecureuil</folder>
 	<filename>ebtfm3.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\ebtfm3.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\ebtfm3.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>439</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>113</xmin>
-			<ymin>263</ymin>
-			<xmax>218</xmax>
-			<ymax>324</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>squirrel</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>100</xmin>
-			<ymin>197</ymin>
-			<xmax>209</xmax>
-			<ymax>258</ymax>
+			<xmin>35</xmin>
+			<ymin>104</ymin>
+			<xmax>76</xmax>
+			<ymax>129</ymax>
 		</bndbox>
 	</object>
 </annotation>

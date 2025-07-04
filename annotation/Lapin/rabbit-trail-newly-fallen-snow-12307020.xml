@@ -1,14 +1,26 @@
 <annotation>
 	<folder>Lapin</folder>
 	<filename>rabbit-trail-newly-fallen-snow-12307020.jpg</filename>
-	<path>C:\Users\Thuy-trang\Desktop\mspr-ia\projet MSPR\Mammiferes\Lapin\rabbit-trail-newly-fallen-snow-12307020.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Lapin\rabbit-trail-newly-fallen-snow-12307020.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>650</width>
-		<height>900</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	</annotation>
+	<object>
+		<name>rabbit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>49</ymin>
+			<xmax>130</xmax>
+			<ymax>67</ymax>
+		</bndbox>
+	</object>
+</annotation>

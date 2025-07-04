@@ -1,14 +1,26 @@
 <annotation>
 	<folder>Loup</folder>
-	<filename>original_11.jpeg</filename>
-	<path>C:\Users\Thuy-trang\Desktop\mspr-ia\projet MSPR\Mammiferes\Loup\original_11.jpeg</path>
+	<filename>original_11.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\original_11.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2048</width>
-		<height>1633</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	</annotation>
+	<object>
+		<name>wolf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>61</xmin>
+			<ymin>17</ymin>
+			<xmax>213</xmax>
+			<ymax>182</ymax>
+		</bndbox>
+	</object>
+</annotation>

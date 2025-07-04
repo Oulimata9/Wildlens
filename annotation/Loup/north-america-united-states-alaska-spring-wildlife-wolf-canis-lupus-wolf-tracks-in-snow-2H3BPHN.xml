@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>north-america-united-states-alaska-spring-wildlife-wolf-canis-lupus-wolf-tracks-in-snow-2H3BPHN.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\north-america-united-states-alaska-spring-wildlife-wolf-canis-lupus-wolf-tracks-in-snow-2H3BPHN.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\north-america-united-states-alaska-spring-wildlife-wolf-canis-lupus-wolf-tracks-in-snow-2H3BPHN.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>856</width>
-		<height>1390</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>179</xmin>
-			<ymin>669</ymin>
-			<xmax>668</xmax>
-			<ymax>1269</ymax>
+			<xmin>54</xmin>
+			<ymin>108</ymin>
+			<xmax>166</xmax>
+			<ymax>196</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>155</xmin>
-			<ymin>79</ymin>
-			<xmax>597</xmax>
-			<ymax>524</ymax>
+			<xmin>53</xmin>
+			<ymin>15</ymin>
+			<xmax>140</xmax>
+			<ymax>72</ymax>
 		</bndbox>
 	</object>
 </annotation>

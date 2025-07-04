@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>cnxh4a.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\cnxh4a.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\cnxh4a.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>447</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>212</xmin>
-			<ymin>252</ymin>
-			<xmax>334</xmax>
-			<ymax>389</ymax>
+			<xmin>130</xmin>
+			<ymin>38</ymin>
+			<xmax>183</xmax>
+			<ymax>102</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>192</xmin>
-			<ymin>108</ymin>
-			<xmax>369</xmax>
-			<ymax>242</ymax>
+			<xmin>72</xmin>
+			<ymin>54</ymin>
+			<xmax>126</xmax>
+			<ymax>114</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>375</xmin>
-			<ymin>15</ymin>
-			<xmax>560</xmax>
-			<ymax>339</ymax>
+			<xmin>152</xmin>
+			<ymin>99</ymin>
+			<xmax>194</xmax>
+			<ymax>165</ymax>
 		</bndbox>
 	</object>
 </annotation>

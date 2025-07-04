@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Castor</folder>
 	<filename>Beaver-Track.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Castor\Beaver-Track.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Castor\Beaver-Track.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>682</width>
-		<height>1024</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>79</xmin>
-			<ymin>289</ymin>
-			<xmax>615</xmax>
-			<ymax>861</ymax>
+			<xmin>36</xmin>
+			<ymin>64</ymin>
+			<xmax>189</xmax>
+			<ymax>190</ymax>
 		</bndbox>
 	</object>
 </annotation>

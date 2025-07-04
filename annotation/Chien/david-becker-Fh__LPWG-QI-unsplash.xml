@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>david-becker-Fh__LPWG-QI-unsplash.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\david-becker-Fh__LPWG-QI-unsplash.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\david-becker-Fh__LPWG-QI-unsplash.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>4000</width>
-		<height>6000</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1662</xmin>
-			<ymin>3187</ymin>
-			<xmax>2850</xmax>
-			<ymax>4205</ymax>
+			<xmin>97</xmin>
+			<ymin>118</ymin>
+			<xmax>153</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 </annotation>

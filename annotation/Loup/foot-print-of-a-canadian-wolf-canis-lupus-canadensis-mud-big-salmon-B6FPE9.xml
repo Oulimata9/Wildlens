@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>foot-print-of-a-canadian-wolf-canis-lupus-canadensis-mud-big-salmon-B6FPE9.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\foot-print-of-a-canadian-wolf-canis-lupus-canadensis-mud-big-salmon-B6FPE9.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\foot-print-of-a-canadian-wolf-canis-lupus-canadensis-mud-big-salmon-B6FPE9.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>184</xmin>
-			<ymin>57</ymin>
-			<xmax>1091</xmax>
-			<ymax>798</ymax>
+			<xmin>47</xmin>
+			<ymin>27</ymin>
+			<xmax>185</xmax>
+			<ymax>181</ymax>
 		</bndbox>
 	</object>
 </annotation>

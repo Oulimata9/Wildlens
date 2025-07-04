@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Ours</folder>
+	<filename>th (29).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ours\th (29).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>271</width>
+		<height>180</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>88</ymin>
+			<xmax>138</xmax>
+			<ymax>153</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ours</folder>
 	<filename>e1x14n.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\e1x14n.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ours\e1x14n.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>345</width>
-		<height>540</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>25</xmin>
-			<ymin>28</ymin>
-			<xmax>117</xmax>
-			<ymax>128</ymax>
+			<xmin>74</xmin>
+			<ymin>100</ymin>
+			<xmax>133</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>94</xmin>
-			<ymin>236</ymin>
-			<xmax>226</xmax>
-			<ymax>355</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>bear</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>193</xmin>
-			<ymin>336</ymin>
-			<xmax>292</xmax>
-			<ymax>474</ymax>
+			<xmin>126</xmin>
+			<ymin>143</ymin>
+			<xmax>179</xmax>
+			<ymax>194</ymax>
 		</bndbox>
 	</object>
 </annotation>

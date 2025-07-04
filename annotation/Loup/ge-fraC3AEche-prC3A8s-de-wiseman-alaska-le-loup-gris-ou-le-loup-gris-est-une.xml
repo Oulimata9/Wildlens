@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>ge-fraC3AEche-prC3A8s-de-wiseman-alaska-le-loup-gris-ou-le-loup-gris-est-une.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\ge-fraC3AEche-prC3A8s-de-wiseman-alaska-le-loup-gris-ou-le-loup-gris-est-une.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\ge-fraC3AEche-prC3A8s-de-wiseman-alaska-le-loup-gris-ou-le-loup-gris-est-une.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>453</width>
-		<height>612</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>44</xmin>
-			<ymin>176</ymin>
-			<xmax>148</xmax>
-			<ymax>291</ymax>
+			<xmin>29</xmin>
+			<ymin>60</ymin>
+			<xmax>70</xmax>
+			<ymax>100</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>242</xmin>
-			<ymin>382</ymin>
-			<xmax>442</xmax>
-			<ymax>593</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>wolf</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>145</xmin>
-			<ymin>77</ymin>
-			<xmax>224</xmax>
-			<ymax>147</ymax>
+			<xmin>128</xmin>
+			<ymin>143</ymin>
+			<xmax>204</xmax>
+			<ymax>211</ymax>
 		</bndbox>
 	</object>
 </annotation>

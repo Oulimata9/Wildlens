@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ours</folder>
 	<filename>pknnjy.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\pknnjy.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ours\pknnjy.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>447</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>171</xmin>
-			<ymin>228</ymin>
-			<xmax>482</xmax>
-			<ymax>420</ymax>
+			<xmin>62</xmin>
+			<ymin>138</ymin>
+			<xmax>117</xmax>
+			<ymax>197</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>129</ymin>
+			<xmax>188</xmax>
+			<ymax>182</ymax>
 		</bndbox>
 	</object>
 </annotation>

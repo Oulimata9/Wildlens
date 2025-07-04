@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ecureuil</folder>
 	<filename>stock-photo-closeup-of-traces-of-a-red-squirrel-sciurus-vulgaris-in-fresh-snow-1491490754.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\stock-photo-closeup-of-traces-of-a-red-squirrel-sciurus-vulgaris-in-fresh-snow-1491490754.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\stock-photo-closeup-of-traces-of-a-red-squirrel-sciurus-vulgaris-in-fresh-snow-1491490754.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1500</width>
-		<height>1101</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>485</xmin>
-			<ymin>645</ymin>
-			<xmax>796</xmax>
-			<ymax>827</ymax>
+			<xmin>99</xmin>
+			<ymin>105</ymin>
+			<xmax>145</xmax>
+			<ymax>135</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>659</xmin>
-			<ymin>362</ymin>
-			<xmax>992</xmax>
-			<ymax>663</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>squirrel</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>444</xmin>
-			<ymin>206</ymin>
-			<xmax>732</xmax>
-			<ymax>349</ymax>
+			<xmin>108</xmin>
+			<ymin>77</ymin>
+			<xmax>147</xmax>
+			<ymax>103</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-in-snow-in-yellowstone-national-park-EE499W.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-in-snow-in-yellowstone-national-park-EE499W.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-in-snow-in-yellowstone-national-park-EE499W.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>282</xmin>
-			<ymin>450</ymin>
-			<xmax>697</xmax>
-			<ymax>794</ymax>
+			<xmin>56</xmin>
+			<ymin>102</ymin>
+			<xmax>121</xmax>
+			<ymax>175</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>wolf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>116</xmin>
+			<ymin>40</ymin>
+			<xmax>171</xmax>
+			<ymax>90</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Coyote</folder>
-	<filename>dog-footprint-on-sand-260nw-150072893.webp</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Coyote\dog-footprint-on-sand-260nw-150072893.webp</path>
+	<filename>dog-footprint-on-sand-260nw-150072893.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Coyote\dog-footprint-on-sand-260nw-150072893.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>379</width>
-		<height>280</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>33</xmin>
-			<ymin>104</ymin>
-			<xmax>198</xmax>
-			<ymax>223</ymax>
+			<xmin>20</xmin>
+			<ymin>88</ymin>
+			<xmax>113</xmax>
+			<ymax>177</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>190</xmin>
-			<ymin>28</ymin>
-			<xmax>353</xmax>
-			<ymax>156</ymax>
+			<xmin>113</xmin>
+			<ymin>23</ymin>
+			<xmax>203</xmax>
+			<ymax>108</ymax>
 		</bndbox>
 	</object>
 </annotation>

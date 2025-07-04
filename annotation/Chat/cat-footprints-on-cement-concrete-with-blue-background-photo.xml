@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
-	<filename>cat-footprints-on-cement-concrete-with-blue-background-photo.jpeg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\cat-footprints-on-cement-concrete-with-blue-background-photo.jpeg</path>
+	<filename>cat-footprints-on-cement-concrete-with-blue-background-photo.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\cat-footprints-on-cement-concrete-with-blue-background-photo.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>735</width>
-		<height>980</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>150</xmin>
-			<ymin>249</ymin>
-			<xmax>533</xmax>
-			<ymax>652</ymax>
+			<xmin>48</xmin>
+			<ymin>63</ymin>
+			<xmax>166</xmax>
+			<ymax>147</ymax>
 		</bndbox>
 	</object>
 </annotation>

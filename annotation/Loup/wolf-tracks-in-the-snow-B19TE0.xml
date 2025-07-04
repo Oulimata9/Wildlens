@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-in-the-snow-B19TE0.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-in-the-snow-B19TE0.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-in-the-snow-B19TE0.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>866</width>
-		<height>1390</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>77</xmin>
-			<ymin>859</ymin>
-			<xmax>385</xmax>
-			<ymax>1134</ymax>
+			<xmin>52</xmin>
+			<ymin>72</ymin>
+			<xmax>112</xmax>
+			<ymax>108</ymax>
 		</bndbox>
 	</object>
 </annotation>

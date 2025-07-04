@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Puma</folder>
+	<filename>th (7).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Puma\th (7).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>240</width>
+		<height>180</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>puma</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>34</ymin>
+			<xmax>179</xmax>
+			<ymax>138</ymax>
+		</bndbox>
+	</object>
+</annotation>

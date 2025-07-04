@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>Wolf-Tracks-in-Snow.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\Wolf-Tracks-in-Snow.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\Wolf-Tracks-in-Snow.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>600</width>
-		<height>405</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>174</xmin>
-			<ymin>65</ymin>
-			<xmax>319</xmax>
-			<ymax>218</ymax>
+			<xmin>68</xmin>
+			<ymin>37</ymin>
+			<xmax>119</xmax>
+			<ymax>114</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>303</xmin>
-			<ymin>187</ymin>
-			<xmax>482</xmax>
-			<ymax>368</ymax>
+			<xmin>120</xmin>
+			<ymin>107</ymin>
+			<xmax>178</xmax>
+			<ymax>194</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
 	<filename>cattracksofboots112507.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\cattracksofboots112507.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\cattracksofboots112507.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>233</width>
-		<height>250</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -18,9 +18,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>24</xmin>
-			<ymin>4</ymin>
-			<xmax>201</xmax>
-			<ymax>148</ymax>
+			<ymin>11</ymin>
+			<xmax>178</xmax>
+			<ymax>129</ymax>
 		</bndbox>
 	</object>
 </annotation>

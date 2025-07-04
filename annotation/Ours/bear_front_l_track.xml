@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ours</folder>
 	<filename>bear_front_l_track.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\bear_front_l_track.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ours\bear_front_l_track.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>480</width>
-		<height>360</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>49</xmin>
-			<ymin>31</ymin>
-			<xmax>435</xmax>
-			<ymax>342</ymax>
+			<xmin>40</xmin>
+			<ymin>24</ymin>
+			<xmax>185</xmax>
+			<ymax>192</ymax>
 		</bndbox>
 	</object>
 </annotation>

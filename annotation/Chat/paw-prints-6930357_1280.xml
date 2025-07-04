@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
 	<filename>paw-prints-6930357_1280.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\paw-prints-6930357_1280.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\paw-prints-6930357_1280.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>853</width>
-		<height>1280</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>424</xmin>
-			<ymin>684</ymin>
-			<xmax>592</xmax>
-			<ymax>824</ymax>
+			<xmin>120</xmin>
+			<ymin>122</ymin>
+			<xmax>148</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>427</xmin>
-			<ymin>337</ymin>
-			<xmax>543</xmax>
-			<ymax>460</ymax>
+			<xmin>114</xmin>
+			<ymin>62</ymin>
+			<xmax>138</xmax>
+			<ymax>78</ymax>
 		</bndbox>
 	</object>
 </annotation>

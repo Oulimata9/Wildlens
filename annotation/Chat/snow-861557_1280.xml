@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
 	<filename>snow-861557_1280.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\snow-861557_1280.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\snow-861557_1280.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1280</width>
-		<height>720</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>341</xmin>
-			<ymin>91</ymin>
-			<xmax>590</xmax>
-			<ymax>240</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>563</xmin>
-			<ymin>311</ymin>
-			<xmax>998</xmax>
-			<ymax>561</ymax>
+			<xmin>93</xmin>
+			<ymin>96</ymin>
+			<xmax>170</xmax>
+			<ymax>163</ymax>
 		</bndbox>
 	</object>
 </annotation>

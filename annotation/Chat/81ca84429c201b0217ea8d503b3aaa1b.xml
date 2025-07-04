@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
 	<filename>81ca84429c201b0217ea8d503b3aaa1b.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\81ca84429c201b0217ea8d503b3aaa1b.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\81ca84429c201b0217ea8d503b3aaa1b.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>236</width>
-		<height>352</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>40</xmin>
-			<ymin>220</ymin>
-			<xmax>88</xmax>
-			<ymax>266</ymax>
+			<xmin>36</xmin>
+			<ymin>138</ymin>
+			<xmax>84</xmax>
+			<ymax>170</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>98</xmin>
-			<ymin>223</ymin>
-			<xmax>153</xmax>
-			<ymax>261</ymax>
+			<xmin>97</xmin>
+			<ymin>142</ymin>
+			<xmax>143</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>164</xmin>
-			<ymin>221</ymin>
-			<xmax>216</xmax>
-			<ymax>280</ymax>
+			<xmin>154</xmin>
+			<ymin>143</ymin>
+			<xmax>205</xmax>
+			<ymax>170</ymax>
 		</bndbox>
 	</object>
 </annotation>

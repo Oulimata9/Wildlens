@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
-	<filename>clear-distinct-dog-tracks-wet-260nw-2381335471.webp</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\clear-distinct-dog-tracks-wet-260nw-2381335471.webp</path>
+	<filename>clear-distinct-dog-tracks-wet-260nw-2381335471.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\clear-distinct-dog-tracks-wet-260nw-2381335471.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>347</width>
-		<height>280</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>61</xmin>
-			<ymin>64</ymin>
-			<xmax>127</xmax>
-			<ymax>125</ymax>
+			<xmin>62</xmin>
+			<ymin>119</ymin>
+			<xmax>111</xmax>
+			<ymax>159</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,34 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>123</xmin>
+			<xmin>109</xmin>
+			<ymin>147</ymin>
+			<xmax>145</xmax>
+			<ymax>184</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>86</xmin>
 			<ymin>19</ymin>
-			<xmax>195</xmax>
-			<ymax>77</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>dog</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>92</xmin>
-			<ymin>142</ymin>
-			<xmax>177</xmax>
-			<ymax>206</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>dog</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>165</xmin>
-			<ymin>187</ymin>
-			<xmax>236</xmax>
-			<ymax>237</ymax>
+			<xmax>122</xmax>
+			<ymax>55</ymax>
 		</bndbox>
 	</object>
 </annotation>

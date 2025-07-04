@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>2856047-pistes-de-chien-au-sol-photo.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\2856047-pistes-de-chien-au-sol-photo.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\2856047-pistes-de-chien-au-sol-photo.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1460</width>
-		<height>980</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>651</xmin>
-			<ymin>391</ymin>
-			<xmax>892</xmax>
-			<ymax>566</ymax>
+			<xmin>100</xmin>
+			<ymin>90</ymin>
+			<xmax>139</xmax>
+			<ymax>128</ymax>
 		</bndbox>
 	</object>
 </annotation>

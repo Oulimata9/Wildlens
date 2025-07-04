@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>Red-Fox-Tracks.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\Red-Fox-Tracks.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\Red-Fox-Tracks.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>768</width>
-		<height>1024</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>87</xmin>
-			<ymin>366</ymin>
-			<xmax>673</xmax>
-			<ymax>989</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fox</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1</ymin>
-			<xmax>561</xmax>
-			<ymax>483</ymax>
+			<xmin>47</xmin>
+			<ymin>88</ymin>
+			<xmax>183</xmax>
+			<ymax>211</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,0 +1,96 @@
+<!-- resultat.html -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résultat - WildLens</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo WildLens" class="logo" />
+
+        <h1>Résultat de la détection</h1>
+        <div class="fiche-espece">
+            <img id="illustration" src="" alt="Illustration espèce" class="illustration" />
+
+            <div class="infos">
+                <p><strong>Espèce :</strong> <span id="nom_espece"></span></p>
+                <p id="ligne_nom_scientifique"><strong>Nom scientifique :</strong> <span id="nom_scientifique"></span></p>
+                <p><strong>Description :</strong> <span id="description"></span></p>
+                <p id="ligne_habitat"><strong>Habitat :</strong> <span id="habitat"></span></p>
+                <p id="ligne_taille"><strong>Taille :</strong> <span id="taille"></span></p>
+                <p id="ligne_famille"><strong>Famille :</strong> <span id="famille"></span></p>
+                <p id="ligne_confiance"><strong>Confiance :</strong> <span id="confiance"></span></p>
+            </div>
+            
+
+            <button onclick="retourAccueil()">Retour à l'accueil</button>
+        </div>
+    </div>
+
+    <!-- Illustration de l’espèce -->
+    <script>
+        const data = JSON.parse(localStorage.getItem("dernier_resultat"));
+
+        if (!data) {
+            alert("Aucune donnée trouvée. Retour à l'accueil.");
+            window.location.href = "index.html";
+        }
+
+        const illustration = document.getElementById("illustration");
+
+        if (data.nom_espece === "Aucune espèce détectée") {
+            document.getElementById("nom_espece").textContent = "Aucune espèce détectée";
+            document.getElementById("description").textContent = data.description || "-";
+
+            // Masquer les autres lignes
+            ["ligne_nom_scientifique", "ligne_habitat", "ligne_taille", "ligne_famille", "ligne_confiance"].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) element.style.display = "none";
+            });
+
+            // Affiche illustration floue
+            illustration.src = "illustrations/aucune_empreinte_detectee.png";
+        } else {
+            document.getElementById("nom_espece").textContent = data.nom_espece || "Inconnu";
+            document.getElementById("nom_scientifique").textContent = data.nom_scientifique || "-";
+            document.getElementById("description").textContent = data.description || "-";
+            document.getElementById("habitat").textContent = data.habitat || "-";
+            document.getElementById("taille").textContent = data.taille || "-";
+            document.getElementById("famille").textContent = data.famille || "-";
+            document.getElementById("confiance").textContent = data.confidence ? `${data.confidence} %` : "-";
+
+            const nomNormalise = data.nom_espece
+                .toLowerCase()
+                .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                .replace(/\s+/g, "_");
+
+            illustration.src = `illustrations/${nomNormalise}.jpg`;
+            illustration.onerror = () => {
+                illustration.src = "illustrations/aucune_empreinte_detectee.png";
+            };
+        }
+
+        function retourAccueil() {
+            localStorage.removeItem("dernier_resultat");
+            window.location.href = "index.html";
+        }
+    </script>
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+

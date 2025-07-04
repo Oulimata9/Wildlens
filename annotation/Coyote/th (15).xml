@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Coyote</folder>
+	<filename>th (15).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Coyote\th (15).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>169</width>
+		<height>180</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>coyote</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>46</xmin>
+			<ymin>18</ymin>
+			<xmax>151</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -4,7 +4,7 @@ import albumentations as A
 from tqdm import tqdm
 
 # PARAMÈTRES 
-classes_to_augment = ['beaver', 'rabbit', 'coyote', 'fox', 'lynx']
+classes_to_augment = ['puma', 'rat', 'fox', 'rabbit', 'beaver', 'coyote', 'lynx', 'cat', 'raccoon']
 input_image_root = 'C:/cours_b3/mspr-ia/WildLens_MSPR/Mammiferes'
 input_label_folder = 'C:/cours_b3/mspr-ia/WildLens_MSPR/annotation/yolo_labels'
 output_image_folder = 'C:/cours_b3/mspr-ia/WildLens_MSPR/augmented/images'

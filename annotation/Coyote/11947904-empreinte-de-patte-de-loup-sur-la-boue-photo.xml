@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Coyote</folder>
 	<filename>11947904-empreinte-de-patte-de-loup-sur-la-boue-photo.jpg</filename>
-	<path>C:\projets\mspr-ia\projet MSPR\Mammifères\Coyote\11947904-empreinte-de-patte-de-loup-sur-la-boue-photo.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Coyote\11947904-empreinte-de-patte-de-loup-sur-la-boue-photo.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1307</width>
-		<height>980</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>328</xmin>
-			<ymin>142</ymin>
-			<xmax>800</xmax>
-			<ymax>861</ymax>
+			<xmin>69</xmin>
+			<ymin>91</ymin>
+			<xmax>137</xmax>
+			<ymax>194</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Lynx</folder>
 	<filename>Bobcat-Tracks-4.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lynx\Bobcat-Tracks-4.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Lynx\Bobcat-Tracks-4.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>682</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>432</xmin>
-			<ymin>136</ymin>
-			<xmax>856</xmax>
-			<ymax>626</ymax>
+			<xmin>95</xmin>
+			<ymin>50</ymin>
+			<xmax>192</xmax>
+			<ymax>201</ymax>
 		</bndbox>
 	</object>
 </annotation>

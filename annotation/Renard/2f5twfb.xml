@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>2f5twfb.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\2f5twfb.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\2f5twfb.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>447</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,34 +17,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+			<xmin>48</xmin>
+			<ymin>138</ymin>
+			<xmax>94</xmax>
+			<ymax>168</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fox</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>139</xmin>
+			<ymin>131</ymin>
+			<xmax>199</xmax>
+			<ymax>174</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fox</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
 			<xmin>118</xmin>
-			<ymin>265</ymin>
-			<xmax>279</xmax>
-			<ymax>349</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fox</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>394</xmin>
-			<ymin>261</ymin>
-			<xmax>598</xmax>
-			<ymax>359</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fox</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>113</xmin>
-			<ymin>155</ymin>
-			<xmax>255</xmax>
-			<ymax>230</ymax>
+			<ymin>77</ymin>
+			<xmax>169</xmax>
+			<ymax>112</ymax>
 		</bndbox>
 	</object>
 </annotation>

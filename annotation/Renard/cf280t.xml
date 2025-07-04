@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>cf280t.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\cf280t.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\cf280t.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>347</width>
-		<height>540</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,34 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>105</xmin>
-			<ymin>408</ymin>
-			<xmax>206</xmax>
-			<ymax>488</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fox</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>141</xmin>
-			<ymin>219</ymin>
-			<xmax>211</xmax>
-			<ymax>266</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fox</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>186</xmin>
-			<ymin>108</ymin>
-			<xmax>263</xmax>
-			<ymax>147</ymax>
+			<xmin>99</xmin>
+			<ymin>93</ymin>
+			<xmax>132</xmax>
+			<ymax>110</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Puma</folder>
 	<filename>original (11).jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Puma\original (11).jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Puma\original (11).jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1365</width>
-		<height>2048</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>345</xmin>
-			<ymin>1208</ymin>
-			<xmax>856</xmax>
-			<ymax>1733</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>puma</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>254</xmin>
-			<ymin>272</ymin>
-			<xmax>947</xmax>
-			<ymax>885</ymax>
+			<xmin>68</xmin>
+			<ymin>131</ymin>
+			<xmax>139</xmax>
+			<ymax>187</ymax>
 		</bndbox>
 	</object>
 </annotation>

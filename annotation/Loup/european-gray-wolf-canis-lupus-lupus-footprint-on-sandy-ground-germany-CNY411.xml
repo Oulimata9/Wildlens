@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>european-gray-wolf-canis-lupus-lupus-footprint-on-sandy-ground-germany-CNY411.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\european-gray-wolf-canis-lupus-lupus-footprint-on-sandy-ground-germany-CNY411.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\european-gray-wolf-canis-lupus-lupus-footprint-on-sandy-ground-germany-CNY411.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>866</width>
-		<height>1390</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>255</xmin>
-			<ymin>690</ymin>
-			<xmax>770</xmax>
-			<ymax>1227</ymax>
+			<xmin>86</xmin>
+			<ymin>112</ymin>
+			<xmax>192</xmax>
+			<ymax>196</ymax>
 		</bndbox>
 	</object>
 </annotation>

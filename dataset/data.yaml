@@ -1,5 +1,6 @@
 path: C:/cours_b3/mspr-ia/WildLens_MSPR/dataset
 train: images/train
 val: images/val
+test: images/test
 nc: 13
 names: ['beaver', 'cat', 'dog', 'coyote', 'squirrel', 'rabbit', 'wolf', 'lynx', 'bear', 'puma', 'rat', 'raccoon', 'fox']

@@ -3,7 +3,7 @@ from PIL import Image
 
 input_base = 'C:\\cours_b3\\mspr-ia\\WildLens_MSPR\\Mammiferes'
 output_base = 'C:\\cours_b3\\mspr-ia\\WildLens_MSPR\\images_nettoyees'
-target_size = (224, 224)
+target_size = (640, 640)
 
 #  génère le fichier empreintes.csv
 os.makedirs(output_base, exist_ok=True)

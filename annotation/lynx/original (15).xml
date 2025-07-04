@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Lynx</folder>
-	<filename>original (15).jpeg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Lynx\original (15).jpeg</path>
+	<filename>original (15).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Lynx\original (15).jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2048</width>
-		<height>1441</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>334</xmin>
-			<ymin>556</ymin>
-			<xmax>831</xmax>
-			<ymax>995</ymax>
+			<xmin>39</xmin>
+			<ymin>91</ymin>
+			<xmax>86</xmax>
+			<ymax>155</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1082</xmin>
-			<ymin>338</ymin>
-			<xmax>1656</xmax>
-			<ymax>777</ymax>
+			<xmin>125</xmin>
+			<ymin>63</ymin>
+			<xmax>168</xmax>
+			<ymax>112</ymax>
 		</bndbox>
 	</object>
 </annotation>

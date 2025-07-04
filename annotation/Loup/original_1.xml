@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
-	<filename>original_1.jpeg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\original_1.jpeg</path>
+	<filename>original_1.jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\original_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1536</width>
-		<height>2048</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>124</xmin>
-			<ymin>266</ymin>
-			<xmax>1326</xmax>
-			<ymax>1295</ymax>
+			<xmin>64</xmin>
+			<ymin>19</ymin>
+			<xmax>174</xmax>
+			<ymax>126</ymax>
 		</bndbox>
 	</object>
 </annotation>

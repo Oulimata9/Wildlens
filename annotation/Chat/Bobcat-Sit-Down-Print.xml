@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chat</folder>
 	<filename>Bobcat-Sit-Down-Print.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chat\Bobcat-Sit-Down-Print.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chat\Bobcat-Sit-Down-Print.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1535</width>
-		<height>1053</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>604</xmin>
-			<ymin>262</ymin>
-			<xmax>1008</xmax>
-			<ymax>738</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>968</xmin>
-			<ymin>226</ymin>
-			<xmax>1308</xmax>
-			<ymax>658</ymax>
+			<xmin>142</xmin>
+			<ymin>50</ymin>
+			<xmax>176</xmax>
+			<ymax>84</ymax>
 		</bndbox>
 	</object>
 </annotation>

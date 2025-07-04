@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>g57rn8.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\g57rn8.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\g57rn8.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>447</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>110</xmin>
-			<ymin>62</ymin>
-			<xmax>178</xmax>
-			<ymax>133</ymax>
+			<xmin>75</xmin>
+			<ymin>97</ymin>
+			<xmax>92</xmax>
+			<ymax>116</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>198</xmin>
-			<ymin>168</ymin>
-			<xmax>267</xmax>
-			<ymax>236</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>dog</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>265</xmin>
-			<ymin>302</ymin>
-			<xmax>327</xmax>
-			<ymax>385</ymax>
+			<xmin>94</xmin>
+			<ymin>154</ymin>
+			<xmax>116</xmax>
+			<ymax>175</ymax>
 		</bndbox>
 	</object>
 </annotation>

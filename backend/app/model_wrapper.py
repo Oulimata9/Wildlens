@@ -2,10 +2,13 @@ from ultralytics import YOLO
 import pandas as pd
 import sqlite3
 from datetime import datetime
-
+import os
 
 # Charger le modèle YOLO
-model = YOLO("app/best.pt")  # ✅ Assure-toi que ce chemin est correct
+model = YOLO("app/best.pt") 
+
+# Afficher les classes connues par le modèle YOLO
+print(" Modèle YOLO chargé avec les classes :", model.names)
 
 # Charger le fichier des espèces
 df_infos = pd.read_csv("app/infos_especes.csv")
@@ -71,35 +74,57 @@ def predict_image(image_path: str) -> dict:
    # Nettoyer et chercher dans le CSV
     # Nettoyer et chercher dans le CSV
     nom_csv_clean = nom_csv.strip().lower()
-    infos = df_infos[df_infos["nom"] == nom_csv_clean]  # ✅ colonne correcte ici
+    infos = df_infos[df_infos["nom"] == nom_csv_clean] 
 
 
     if not infos.empty:
         info = infos.iloc[0]
 
         # 🔹 Enregistrement en BDD AVANT le return
-        conn = sqlite3.connect("app/predictions.db")
-        cursor = conn.cursor()
-        cursor.execute("""
-            INSERT INTO predictions (nom_espece, nom_scientifique, description, date_prediction, image_path)
-            VALUES (?, ?, ?, ?, ?)
-        """, (
-            nom_csv,
-            info["nom_scientifique"],
-            info["description"],
-            datetime.now().isoformat(),
-            image_path
-        ))
-        conn.commit()
-        conn.close()
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # dossier backend/app
+        DB_PATH = os.path.join(BASE_DIR, "../../database/wildlens.db")
+        conn = sqlite3.connect(DB_PATH)
 
+        cursor = conn.cursor()
+        # Chercher id_espece correspondant au nom
+        cursor.execute("SELECT id_espece FROM especes WHERE nom = ?", (nom_csv,))
+        row = cursor.fetchone()
+
+        if row:
+            id_espece = row[0]
+
+            cursor.execute("""
+                INSERT INTO predictions (id_espece, nom_espece, nom_scientifique, description, date_prediction, image_path, confidence)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            """, (
+                id_espece,
+                nom_csv,
+                info["nom_scientifique"],
+                info["description"],
+                datetime.now().isoformat(),
+                image_path,
+                float(predictions.boxes.conf[0])
+            ))
+            conn.commit()
+
+            # Ajouter ceci pour que le backend retourne le bon résultat !
+            confidence = float(predictions.boxes.conf[0])
+
+            return {
+                "nom_espece": nom_csv,
+                "description": info["description"],
+                "nom_scientifique": info["nom_scientifique"],
+                "habitat": info["habitat"],
+                "taille": info["taille"],
+                "famille": info["famille"],
+                "confidence": round(confidence * 100, 2)
+
+            }
+
+        else:
+            print(f"Erreur : l'espèce '{nom_csv}' n'existe pas dans la table especes.")
+        # Si on arrive ici, c’est qu’aucun return n’a été déclenché
         return {
-            "nom_espece": nom_csv,
-            "nom_scientifique": info["nom_scientifique"],
-            "description": info["description"]
-        }
-    else:
-        return {
-            "nom_espece": nom_csv,
-            "description": f"La classe '{nom_csv}' n'a pas été trouvée dans le fichier infos_especes.csv."
+            "nom_espece": "Erreur",
+            "description": "Aucune prédiction n’a été possible."
         }

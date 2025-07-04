@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>03b8b7679929f02900fd6859e859407d.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\03b8b7679929f02900fd6859e859407d.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\03b8b7679929f02900fd6859e859407d.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2848</width>
-		<height>4272</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>506</xmin>
-			<ymin>2320</ymin>
-			<xmax>1506</xmax>
-			<ymax>3388</ymax>
+			<xmin>51</xmin>
+			<ymin>129</ymin>
+			<xmax>108</xmax>
+			<ymax>179</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1710</xmin>
-			<ymin>744</ymin>
-			<xmax>2518</xmax>
-			<ymax>1896</ymax>
+			<xmin>132</xmin>
+			<ymin>50</ymin>
+			<xmax>196</xmax>
+			<ymax>89</ymax>
 		</bndbox>
 	</object>
 </annotation>

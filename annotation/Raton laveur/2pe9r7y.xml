@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Raton laveur</folder>
 	<filename>2pe9r7y.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Raton laveur\2pe9r7y.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Raton laveur\2pe9r7y.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>447</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>125</xmin>
-			<ymin>223</ymin>
-			<xmax>388</xmax>
-			<ymax>398</ymax>
+			<xmin>117</xmin>
+			<ymin>52</ymin>
+			<xmax>194</xmax>
+			<ymax>107</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>321</xmin>
-			<ymin>92</ymin>
-			<xmax>573</xmax>
-			<ymax>234</ymax>
+			<xmin>50</xmin>
+			<ymin>119</ymin>
+			<xmax>137</xmax>
+			<ymax>188</ymax>
 		</bndbox>
 	</object>
 </annotation>

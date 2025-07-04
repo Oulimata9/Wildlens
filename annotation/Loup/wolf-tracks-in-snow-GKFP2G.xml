@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-in-snow-GKFP2G.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-in-snow-GKFP2G.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-in-snow-GKFP2G.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>281</xmin>
-			<ymin>412</ymin>
-			<xmax>756</xmax>
-			<ymax>740</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>wolf</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>727</xmin>
-			<ymin>148</ymin>
-			<xmax>1080</xmax>
-			<ymax>436</ymax>
+			<xmin>48</xmin>
+			<ymin>92</ymin>
+			<xmax>122</xmax>
+			<ymax>161</ymax>
 		</bndbox>
 	</object>
 </annotation>

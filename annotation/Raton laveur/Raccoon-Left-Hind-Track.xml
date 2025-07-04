@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Raton laveur</folder>
 	<filename>Raccoon-Left-Hind-Track.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Raton laveur\Raccoon-Left-Hind-Track.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Raton laveur\Raccoon-Left-Hind-Track.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>682</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>198</xmin>
-			<ymin>210</ymin>
-			<xmax>593</xmax>
-			<ymax>564</ymax>
+			<xmin>60</xmin>
+			<ymin>90</ymin>
+			<xmax>109</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 </annotation>

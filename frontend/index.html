@@ -2,100 +2,37 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WildLens - Détection d’Empreinte</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f5f1;
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .logo {
-            max-width: 200px;
-            margin-bottom: 20px;
-        }
-
-        video,
-        canvas {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-
-        button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            font-size: 1em;
-            background-color: #29c183;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .result {
-            margin-top: 20px;
-            background: #e1f3ec;
-            padding: 20px;
-            border-radius: 10px;
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-    <img src="logo.png" alt="WildLens Logo" class="logo">
-    <h1>Détection d’Empreinte</h1>
-    <p>Identifiez les animaux à partir de leurs empreintes</p>
+<body class="wildlens">
+    <p id="loading" style="display: none;">Analyse en cours...</p>
 
-    <video id="video" autoplay playsinline width="300" height="225"></video>
-    <br>
-    <button onclick="takePhoto()">Prendre une photo</button>
+    <div class="container">
+        <img src="logo.png" alt="WildLens Logo" class="logo" />
+        <h1>Détection d’Empreinte</h1>
+        <p>Identifiez les animaux à partir de leurs empreintes</p>
 
-    <canvas id="canvas" style="display:none;"></canvas>
+        <video id="video" autoplay playsinline></video>
 
-    <div class="result" id="result">
-        <h2>Résultat</h2>
-        <p><strong>Espèce :</strong> <span id="nom_espece"></span></p>
-        <p><strong>Description :</strong> <span id="description"></span></p>
+        <div class="buttons">
+            <button onclick="takePhoto()">Prendre une photo</button>
+            <label class="upload-label">
+                Importer une image
+                <input type="file" accept="image/*" id="uploadInput" onchange="importPhoto(event)" hidden />
+            </label>
+        </div>
+
+        <canvas id="canvas" style="display: none;"></canvas>
+
+        <div id="loading" style="display: none;">Analyse en cours...</div>
+
     </div>
 
-    <script>
-        const video = document.getElementById("video");
-        const canvas = document.getElementById("canvas");
-        const resultDiv = document.getElementById("result");
-
-        navigator.mediaDevices.getUserMedia({ video: true })
-            .then(stream => {
-                video.srcObject = stream;
-            });
-
-        async function takePhoto() {
-            canvas.width = video.videoWidth;
-            canvas.height = video.videoHeight;
-            const context = canvas.getContext("2d");
-            context.drawImage(video, 0, 0, canvas.width, canvas.height);
-
-            canvas.toBlob(async blob => {
-                const formData = new FormData();
-                formData.append("file", blob, "photo.jpg");
-
-                const response = await fetch("http://localhost:8000/predict", {
-                    method: "POST",
-                    body: formData,
-                });
-
-                const data = await response.json();
-                document.getElementById("nom_espece").innerText = data.nom_espece;
-                document.getElementById("description").innerText = data.description;
-                resultDiv.style.display = "block";
-            }, "image/jpeg");
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

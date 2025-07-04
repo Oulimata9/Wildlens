@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-GKDYPX.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-GKDYPX.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-GKDYPX.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>114</xmin>
-			<ymin>146</ymin>
-			<xmax>578</xmax>
-			<ymax>525</ymax>
+			<xmin>29</xmin>
+			<ymin>42</ymin>
+			<xmax>96</xmax>
+			<ymax>117</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>675</xmin>
-			<ymin>380</ymin>
-			<xmax>1090</xmax>
-			<ymax>719</ymax>
+			<xmin>117</xmin>
+			<ymin>94</ymin>
+			<xmax>183</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 </annotation>

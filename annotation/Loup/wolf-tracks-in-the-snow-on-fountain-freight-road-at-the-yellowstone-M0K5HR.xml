@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Loup</folder>
 	<filename>wolf-tracks-in-the-snow-on-fountain-freight-road-at-the-yellowstone-M0K5HR.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Loup\wolf-tracks-in-the-snow-on-fountain-freight-road-at-the-yellowstone-M0K5HR.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Loup\wolf-tracks-in-the-snow-on-fountain-freight-road-at-the-yellowstone-M0K5HR.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1300</width>
-		<height>956</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>695</xmin>
-			<ymin>511</ymin>
-			<xmax>1103</xmax>
-			<ymax>798</ymax>
+			<xmin>142</xmin>
+			<ymin>74</ymin>
+			<xmax>205</xmax>
+			<ymax>123</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,34 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>815</xmin>
-			<ymin>297</ymin>
-			<xmax>1177</xmax>
-			<ymax>561</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>wolf</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>484</xmin>
-			<ymin>237</ymin>
-			<xmax>732</xmax>
-			<ymax>487</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>wolf</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>222</xmin>
-			<ymin>230</ymin>
-			<xmax>407</xmax>
-			<ymax>373</ymax>
+			<xmin>128</xmin>
+			<ymin>120</ymin>
+			<xmax>185</xmax>
+			<ymax>177</ymax>
 		</bndbox>
 	</object>
 </annotation>

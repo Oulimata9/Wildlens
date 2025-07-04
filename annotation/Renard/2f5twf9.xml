@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Renard</folder>
 	<filename>2f5twf9.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Renard\2f5twf9.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Renard\2f5twf9.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>347</width>
-		<height>540</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>32</xmin>
-			<ymin>311</ymin>
-			<xmax>117</xmax>
-			<ymax>365</ymax>
+			<xmin>23</xmin>
+			<ymin>127</ymin>
+			<xmax>74</xmax>
+			<ymax>151</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>82</xmin>
-			<ymin>419</ymin>
-			<xmax>285</xmax>
-			<ymax>513</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>fox</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>181</xmin>
-			<ymin>258</ymin>
-			<xmax>281</xmax>
-			<ymax>314</ymax>
+			<xmin>61</xmin>
+			<ymin>146</ymin>
+			<xmax>106</xmax>
+			<ymax>171</ymax>
 		</bndbox>
 	</object>
 </annotation>

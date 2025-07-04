@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Castor</folder>
 	<filename>rbjymj.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Castor\rbjymj.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Castor\rbjymj.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>447</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>49</xmin>
-			<ymin>43</ymin>
-			<xmax>266</xmax>
-			<ymax>310</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>beaver</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>326</xmin>
-			<ymin>208</ymin>
-			<xmax>610</xmax>
-			<ymax>417</ymax>
+			<xmin>124</xmin>
+			<ymin>110</ymin>
+			<xmax>209</xmax>
+			<ymax>191</ymax>
 		</bndbox>
 	</object>
 </annotation>

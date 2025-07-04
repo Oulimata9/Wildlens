@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ecureuil</folder>
 	<filename>California-Ground-Squirrel-Tracks-(2).jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ecureuil\California-Ground-Squirrel-Tracks-(2).jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ecureuil\California-Ground-Squirrel-Tracks-(2).jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>1024</width>
-		<height>682</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>565</xmin>
-			<ymin>334</ymin>
-			<xmax>688</xmax>
-			<ymax>491</ymax>
+			<xmin>91</xmin>
+			<ymin>155</ymin>
+			<xmax>116</xmax>
+			<ymax>196</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>292</xmin>
-			<ymin>161</ymin>
-			<xmax>454</xmax>
-			<ymax>338</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>squirrel</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>413</xmin>
-			<ymin>461</ymin>
-			<xmax>551</xmax>
-			<ymax>611</ymax>
+			<xmin>121</xmin>
+			<ymin>108</ymin>
+			<xmax>147</xmax>
+			<ymax>156</ymax>
 		</bndbox>
 	</object>
 </annotation>

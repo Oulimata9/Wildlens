@@ -17,20 +17,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/predict")
-async def predict(file: UploadFile = File(...)):
-    # Sauvegarde temporaire du fichier reçu
-    temp_filename = f"temp_{uuid.uuid4().hex}.jpg"
-    with open(temp_filename, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
-
-    # Prédiction
-    prediction = predict_image(temp_filename)
-
-    # Nettoyage
-    os.remove(temp_filename)
-
-    return prediction
+# Créer automatiquement le dossier s’il n’existe pas
+os.makedirs("temp_images", exist_ok=True)
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):

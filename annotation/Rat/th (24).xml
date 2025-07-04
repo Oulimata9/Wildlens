@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Rat</folder>
+	<filename>th (24).jpg</filename>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Rat\th (24).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>240</width>
+		<height>180</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>54</ymin>
+			<xmax>101</xmax>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+</annotation>

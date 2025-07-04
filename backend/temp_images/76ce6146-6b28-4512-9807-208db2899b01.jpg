@@ -1,0 +1,174 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="450" y="30" font-size="18" text-anchor="middle" font-weight="bold">Diagramme de classes</text>
+  
+  <!-- Classe Client -->
+  <rect x="50" y="70" width="180" height="120" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="100" x2="230" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="150" x2="230" y2="150" stroke="black" stroke-width="2"/>
+  <text x="140" y="90" font-size="14" text-anchor="middle" font-weight="bold">Client</text>
+  <text x="60" y="120" font-size="12">- id: int</text>
+  <text x="60" y="140" font-size="12">- nom: String</text>
+  <text x="60" y="170" font-size="12">+ estGrosCLient(): boolean</text>
+  <text x="60" y="190" font-size="12">+ passerCommande(): void</text>
+  
+  <!-- Classe Commande -->
+  <rect x="350" y="70" width="200" height="170" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="100" x2="550" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="180" x2="550" y2="180" stroke="black" stroke-width="2"/>
+  <text x="450" y="90" font-size="14" text-anchor="middle" font-weight="bold">Commande</text>
+  <text x="360" y="120" font-size="12">- id: int</text>
+  <text x="360" y="140" font-size="12">- dateCommande: Date</text>
+  <text x="360" y="160" font-size="12">- prioritaire: boolean</text>
+  <text x="360" y="200" font-size="12">+ calculerPriorite(): int</text>
+  <text x="360" y="220" font-size="12">+ eclaterComposants(): void</text>
+  <text x="360" y="240" font-size="12">+ facturer(): Facture</text>
+  
+  <!-- Classe Facture -->
+  <rect x="650" y="70" width="180" height="130" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="100" x2="830" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="150" x2="830" y2="150" stroke="black" stroke-width="2"/>
+  <text x="740" y="90" font-size="14" text-anchor="middle" font-weight="bold">Facture</text>
+  <text x="660" y="120" font-size="12">- id: int</text>
+  <text x="660" y="140" font-size="12">- montant: float</text>
+  <text x="660" y="170" font-size="12">+ calculerTotal(): float</text>
+  <text x="660" y="190" font-size="12">+ appliquerSurcoût(): void</text>
+  
+  <!-- Classe LigneCommande -->
+  <rect x="350" y="320" width="200" height="130" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="350" x2="550" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="400" x2="550" y2="400" stroke="black" stroke-width="2"/>
+  <text x="450" y="340" font-size="14" text-anchor="middle" font-weight="bold">LigneCommande</text>
+  <text x="360" y="370" font-size="12">- quantite: int</text>
+  <text x="360" y="390" font-size="12">- delai: int</text>
+  <text x="360" y="420" font-size="12">+ calculerSousTotal(): float</text>
+  <text x="360" y="440" font-size="12">+ modifierQuantite(): void</text>
+  
+  <!-- Classe Article -->
+  <rect x="650" y="320" width="200" height="150" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="350" x2="850" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="400" x2="850" y2="400" stroke="black" stroke-width="2"/>
+  <text x="750" y="340" font-size="14" text-anchor="middle" font-weight="bold">Article</text>
+  <text x="660" y="370" font-size="12">- code: String</text>
+  <text x="660" y="390" font-size="12">- description: String</text>
+  <text x="660" y="420" font-size="12">+ controlerTechnique(): boolean</text>
+  <text x="660" y="440" font-size="12">+ modifierCode(): void</text>
+  <text x="660" y="460" font-size="12">+ getComposants(): List&lt;Composant&gt;</text>
+  
+  <!-- Classe Composant -->
+  <rect x="650" y="530" width="200" height="120" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="560" x2="850" y2="560" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="600" x2="850" y2="600" stroke="black" stroke-width="2"/>
+  <text x="750" y="550" font-size="14" text-anchor="middle" font-weight="bold">Composant</text>
+  <text x="660" y="580" font-size="12">- code: String</text>
+  <text x="660" y="620" font-size="12">+ getType(): String</text>
+  <text x="660" y="640" font-size="12">+ getPrix(): float</text>
+  
+  <!-- Classe ComposantMaison -->
+  <rect x="500" y="700" width="200" height="110" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="500" y1="730" x2="700" y2="730" stroke="black" stroke-width="2"/>
+  <line x1="500" y1="770" x2="700" y2="770" stroke="black" stroke-width="2"/>
+  <text x="600" y="720" font-size="14" text-anchor="middle" font-weight="bold">ComposantMaison</text>
+  <text x="510" y="750" font-size="12">- heuresProduction: int</text>
+  <text x="510" y="790" font-size="12">+ getType(): String</text>
+  <text x="510" y="810" font-size="12">+ getHeuresProduction(): int</text>
+  
+  <!-- Classe ComposantSousTraite -->
+  <rect x="750" y="700" width="200" height="110" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="750" y1="730" x2="950" y2="730" stroke="black" stroke-width="2"/>
+  <line x1="750" y1="770" x2="950" y2="770" stroke="black" stroke-width="2"/>
+  <text x="850" y="720" font-size="14" text-anchor="middle" font-weight="bold">ComposantSousTraite</text>
+  <text x="760" y="750" font-size="12">- fournisseur: String</text>
+  <text x="760" y="790" font-size="12">+ getType(): String</text>
+  <text x="760" y="810" font-size="12">+ getFournisseur(): String</text>
+  
+  <!-- Classe Usine -->
+  <rect x="50" y="320" width="200" height="140" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="350" x2="250" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="400" x2="250" y2="400" stroke="black" stroke-width="2"/>
+  <text x="150" y="340" font-size="14" text-anchor="middle" font-weight="bold">Usine</text>
+  <text x="60" y="370" font-size="12">- id: int</text>
+  <text x="60" y="390" font-size="12">- nom: String</text>
+  <text x="60" y="420" font-size="12">+ fabriquerPiece(): void</text>
+  <text x="60" y="440" font-size="12">+ transmettreHeures(): void</text>
+  <text x="60" y="460" font-size="12">+ traiterPriorites(): void</text>
+  
+  <!-- Classe UsineMontage -->
+  <rect x="50" y="530" width="200" height="120" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="560" x2="250" y2="560" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="600" x2="250" y2="600" stroke="black" stroke-width="2"/>
+  <text x="150" y="550" font-size="14" text-anchor="middle" font-weight="bold">UsineMontage</text>
+  <text x="60" y="580" font-size="12">- capaciteMontage: int</text>
+  <text x="60" y="620" font-size="12">+ monterSousEnsembles(): void</text>
+  <text x="60" y="640" font-size="12">+ livrerCommande(): void</text>
+  
+  <!-- Classe ServiceStock -->
+  <rect x="350" y="530" width="200" height="120" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="560" x2="550" y2="560" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="600" x2="550" y2="600" stroke="black" stroke-width="2"/>
+  <text x="450" y="550" font-size="14" text-anchor="middle" font-weight="bold">ServiceStock</text>
+  <text x="360" y="580" font-size="12">- niveauStock: Map&lt;String, int&gt;</text>
+  <text x="360" y="620" font-size="12">+ gererApprovisionnement(): void</text>
+  <text x="360" y="640" font-size="12">+ fournirPrix(): float</text>
+  
+  <!-- Relation Client-Commande -->
+  <line x1="230" y1="130" x2="350" y2="130" stroke="black"/>
+  <text x="290" y="120" font-size="12" text-anchor="middle">passe</text>
+  <text x="340" y="120" font-size="12" text-anchor="middle">0..*</text>
+  <text x="240" y="120" font-size="12" text-anchor="middle">1</text>
+  
+  <!-- Relation Commande-LigneCommande -->
+  <line x1="450" y1="240" x2="450" y2="320" stroke="black"/>
+  <text x="470" y="280" font-size="12" text-anchor="middle">contient</text>
+  <text x="440" y="315" font-size="12" text-anchor="middle">1..*</text>
+  <text x="440" y="255" font-size="12" text-anchor="middle">1</text>
+  <!-- Diamant noir pour la composition -->
+  <polygon points="450,250 445,260 455,260" fill="black"/>
+  
+  <!-- Relation LigneCommande-Article -->
+  <line x1="550" y1="385" x2="650" y2="385" stroke="black"/>
+  <text x="600" y="375" font-size="12" text-anchor="middle">concerne</text>
+  <text x="560" y="375" font-size="12" text-anchor="middle">1..*</text>
+  <text x="640" y="375" font-size="12" text-anchor="middle">1</text>
+  
+  <!-- Relation Article-Composant -->
+  <line x1="750" y1="470" x2="750" y2="530" stroke="black"/>
+  <text x="770" y="500" font-size="12" text-anchor="middle">composé de</text>
+  <text x="740" y="525" font-size="12" text-anchor="middle">1..*</text>
+  <text x="740" y="485" font-size="12" text-anchor="middle">1</text>
+  <!-- Diamant blanc pour l'agrégation -->
+  <polygon points="750,480 745,490 750,500 755,490" fill="white" stroke="black"/>
+  
+  <!-- Relation d'héritage Composant-ComposantMaison -->
+  <line x1="650" y1="650" x2="580" y2="700" stroke="black"/>
+  <line x1="580" y1="650" x2="580" y2="690" stroke="black"/>
+  <line x1="580" y1="650" x2="650" y2="650" stroke="black"/>
+  <!-- Triangle pour l'héritage -->
+  <polygon points="580,650 570,670 590,670" fill="white" stroke="black"/>
+  
+  <!-- Relation d'héritage Composant-ComposantSousTraite -->
+  <line x1="850" y1="650" x2="850" y2="700" stroke="black"/>
+  <line x1="780" y1="650" x2="850" y2="650" stroke="black"/>
+  <line x1="780" y1="650" x2="780" y2="690" stroke="black"/>
+  <!-- Triangle pour l'héritage -->
+  <polygon points="780,650 770,670 790,670" fill="white" stroke="black"/>
+  
+  <!-- Relation d'héritage Usine-UsineMontage -->
+  <line x1="150" y1="460" x2="150" y2="530" stroke="black"/>
+  <!-- Triangle pour l'héritage -->
+  <polygon points="150,490 140,510 160,510" fill="white" stroke="black"/>
+  
+  <!-- Relation Usine-ComposantMaison -->
+  <line x1="250" y1="385" x2="540" y2="700" stroke="black" stroke-dasharray="5,5"/>
+  <text x="380" y="500" font-size="12">fabrique</text>
+  
+  <!-- Relation Commande-Facture -->
+  <line x1="550" y1="130" x2="650" y2="130" stroke="black"/>
+  <text x="600" y="120" font-size="12" text-anchor="middle">génère</text>
+  <text x="560" y="120" font-size="12" text-anchor="middle">1</text>
+  <text x="640" y="120" font-size="12" text-anchor="middle">1</text>
+  
+  <!-- Relation ServiceStock-ComposantSousTraite -->
+  <line x1="550" y1="590" x2="800" y2="700" stroke="black" stroke-dasharray="5,5"/>
+  <text x="670" y="630" font-size="12">gère</text>
+</svg>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ours</folder>
 	<filename>a86y86.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\a86y86.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ours\a86y86.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>345</width>
-		<height>540</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>18</xmin>
-			<ymin>121</ymin>
-			<xmax>340</xmax>
-			<ymax>413</ymax>
+			<xmin>23</xmin>
+			<ymin>55</ymin>
+			<xmax>196</xmax>
+			<ymax>207</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Ours</folder>
 	<filename>track_-_snow-1-400x400.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Ours\track_-_snow-1-400x400.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Ours\track_-_snow-1-400x400.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>400</width>
-		<height>400</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>24</xmin>
-			<ymin>51</ymin>
-			<xmax>380</xmax>
-			<ymax>362</ymax>
+			<xmin>15</xmin>
+			<ymin>27</ymin>
+			<xmax>214</xmax>
+			<ymax>199</ymax>
 		</bndbox>
 	</object>
 </annotation>

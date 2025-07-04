@@ -1,13 +1,13 @@
 <annotation>
 	<folder>Chien</folder>
 	<filename>allyson-beaucourt-i2eb6zcAiAI-unsplash.jpg</filename>
-	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\Mammiferes\Chien\allyson-beaucourt-i2eb6zcAiAI-unsplash.jpg</path>
+	<path>C:\cours_b3\mspr-ia\WildLens_MSPR\images_nettoyees\Chien\allyson-beaucourt-i2eb6zcAiAI-unsplash.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>3888</width>
-		<height>5184</height>
+		<width>224</width>
+		<height>224</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>861</xmin>
-			<ymin>2942</ymin>
-			<xmax>2676</xmax>
-			<ymax>4132</ymax>
+			<xmin>67</xmin>
+			<ymin>125</ymin>
+			<xmax>139</xmax>
+			<ymax>171</ymax>
 		</bndbox>
 	</object>
 </annotation>
