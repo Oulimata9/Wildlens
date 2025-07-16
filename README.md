@@ -66,13 +66,23 @@ WildLens_MSPR/
 ├── backend/
 │ ├── app/
 │ │ ├── main.py                 # Backend FastAPI
-│ │ ├── predict_image.py        # Détection et enregistrement
 │ │ └── infos_especes.csv       # Données descriptives
+│ │ ├── model_wrapper.py      # Chargement et prédiction YOLOv8
+│ │ ├── best.pt               # Modèle entraîné YOLOv8
+│ │ ├── infos_especes.csv     # Infos complètes sur chaque espèce
+│ │ ├── classes.txt           # Liste des espèces (classes YOLO)
+│ │
+│ ├── temp_images/          # Dossier pour sauvegarde temporaire des images
+│ ├── README.md
 ├── database/
 │ └── wildlens.db                # Base SQLite
 ├── frontend/
 │ ├── index.html                 # Accueil de l'application
-│ ├── logo.png                  # logo de l'application
+│ ├── result.html      # Affichage des infos de l'espèce détectée
+| ├── style.css        # Style visuel responsive
+| ├── script.js        # Appels API + redirection
+| ├──logo.png                  # logo de l'application
+|
 ├── README.md                    # Ce fichier  
 
 ---
